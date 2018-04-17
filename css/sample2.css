@@ -44,6 +44,13 @@
      padding-top: 20px;
 }
 
+@media (min-width: 550px){
+     #contents {
+         padding-top: 35px;
+         padding-bottom: 70px;
+     }
+}
+
 #contents #main .news_li {
      font-size: 15px;
      font-size: 1.5rem;
@@ -152,13 +159,14 @@
       }
 }
 
-#contents #main th {
-    padding-right: 20px;
-}
 
 #contents #main th, #contents #main td {
     padding: 20px 0;
     color: #626262;
     font-size: 14px;
     font-size: 1.4rem;
+}
+
+#contents #main th {
+    padding-right: 20px;
 }
